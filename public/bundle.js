@@ -27159,9 +27159,18 @@
 
 	  render: function render() {
 	    return React.createElement(
-	      'h3',
+	      'div',
 	      null,
-	      'About Component'
+	      React.createElement(
+	        'h3',
+	        null,
+	        'About'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Welcom to About page'
+	      )
 	    );
 	  }
 	});
@@ -27181,9 +27190,18 @@
 
 	  render: function render() {
 	    return React.createElement(
-	      'h3',
+	      'div',
 	      null,
-	      'Examples Component'
+	      React.createElement(
+	        'h3',
+	        null,
+	        'Examples'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        'Welcom to Examples page'
+	      )
 	    );
 	  }
 	});
